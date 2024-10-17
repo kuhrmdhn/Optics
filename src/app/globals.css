@@ -12,6 +12,10 @@
   --text-light-gray: #585A5f;
 }
 
+html, body {
+  scroll-behavior: smooth;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
