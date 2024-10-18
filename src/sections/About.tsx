@@ -13,7 +13,7 @@ export default function About() {
                 <Image src="/images/new-arrival.jpg" alt="New Product" width={900} height={1600} className='h-full aspect-auto object-cover object-center' />
                 <a className='w-fit absolute bottom-0 left-1/2 -translate-x-1/2 text-background text-xs' href="https://www.freepik.com/free-photo/eyeglasses-book-vase-tulips-table_8135679.htm#fromView=search&page=1&position=32&uuid=660bdab4-1781-4951-aa3d-e6865434275e">Image by KamranAydinov on Freepik</a>
             </div>
-            <div className='w-11/12 lg:w-2/5 h-3/5 lg:h-full flex flex-col gap-5 lg:gap-0 lg:justify-evenly'>
+            <div className='w-11/12 sm:w-3/5 lg:w-2/5 h-3/5 lg:h-full flex flex-col gap-5 lg:gap-0 lg:justify-evenly'>
                 <SubHeading className='h-fit w-fit flex items-center gap-2'>
                     <h3>About</h3>
                     <h3>Us</h3>
