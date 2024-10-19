@@ -69,9 +69,9 @@ function HomeDivide() {
         },
     ]
     return (
-        <SectionDivide className='bg-foreground flex justify-evenly items-center text-white font-extralight text-left h-[20svh] lg:h-[30svh]'>
+        <SectionDivide className='bg-foreground overflow-y-auto overflow-hide flex sm:justify-evenly items-center gap-7 text-white font-extralight text-left h-[17svh] lg:h-[30svh] px-7'>
             {divideData.map((divide, index) => (
-                <section key={index} className='w-44 lg:w-52 h-28 flex flex-col justify-evenly'>
+                <section key={index} className='w-32 lg:w-52 h-24 flex-none flex flex-col justify-evenly'>
                     <span>{divide.icon}</span>
                     <p className='text-xs sm:text-sm lg:text-base'>{divide.description}</p>
                 </section>
