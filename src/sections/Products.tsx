@@ -6,7 +6,7 @@ import React from 'react'
 
 export default function Products() {
   return (
-    <SectionPage id="products" className='h-[80svh] sm:h-[60svh] lg:h-[100svh] w-full flex flex-col justify-evenly lg:justify-between pt-16 px-7 lg:px-10'>
+    <SectionPage id="products" className='h-[80svh] sm:h-[60svh] lg:h-[100svh] w-full flex flex-col justify-evenly lg:justify-between pt-8 lg:pt-16 px-7 lg:px-10'>
       <div className='h-1/5 w-full sm:w-3/4 lg:w-1/2'>
         <SubHeading className='items-center gap-3'>Our Products</SubHeading>
         <Heading>Explore Customer Favorites in Every Style</Heading>
