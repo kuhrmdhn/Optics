@@ -55,6 +55,30 @@ html, body {
   .overflow-hide::-webkit-scrollbar-thumb {
     width: 0;
   }
+
+  .border-top-hover {
+    position: relative;
+  }
+
+  .border-top-hover::before {
+    content: '';
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    width: 0;
+    height: 4px;
+    background-color: var(--foreground);
+    transition: 300ms;
+    -webkit-transition: 300ms;
+    -moz-transition: 300ms;
+    -ms-transition: 300ms;
+    -o-transition: 300ms;
+}
+
+  .border-top-hover:hover::before {
+    width: 100%;
+  }
 }
 
 @media screen and (max-width: 648px) {

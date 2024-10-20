@@ -21,11 +21,11 @@ const navigations = [
     text: "About Us"
   },
   {
-    link: "#products",
-    text: "Products"
-  },
-  {
     link: "#services",
     text: "Services"
+  },
+  {
+    link: "#products",
+    text: "Products"
   },
 ]
