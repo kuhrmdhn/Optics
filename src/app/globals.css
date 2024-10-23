@@ -16,6 +16,10 @@ html, body {
   scroll-behavior: smooth;
 }
 
+html::-webkit-scrollbar {
+  width: 0;
+}
+
 @layer utilities {
   .text-balance {
     text-wrap: balance;
